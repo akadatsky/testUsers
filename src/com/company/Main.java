@@ -9,6 +9,9 @@ import java.util.TimerTask;
 
 public class Main implements Comparator<Integer> {
 
+    /*
+    This is comment
+     */
     public static void main(String[] args) {
         Main main = new Main();
         main.startTimer();
@@ -45,6 +48,7 @@ public class Main implements Comparator<Integer> {
 
     @Override
     public int compare(Integer o1, Integer o2) {
+        // more comments
         if ((o1 % 2 == 0 && o2 % 2 == 0) ||
                 (o1 % 2 != 0 && o2 % 2 != 0)) {
             return Integer.compare(o1, o2);
