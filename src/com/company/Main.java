@@ -38,9 +38,6 @@ public class Main implements Comparator<Integer> {
         timer.schedule(task, 3000);
         timer.schedule(task, 3000, 5000);
 
-//        timer.cancel();
-//        timer.purge();
-
         System.out.println("After");
 
     }
