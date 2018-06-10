@@ -36,7 +36,7 @@ public class Main implements Comparator<Integer> {
         Timer timer = new Timer();
         System.out.println("Before");
         timer.schedule(task, 3000);
-        timer.schedule(task, 3000, 5000);
+        //timer.schedule(task, 3000, 5000);
 
         System.out.println("After");
 
